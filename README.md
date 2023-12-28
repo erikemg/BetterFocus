@@ -3,7 +3,8 @@ A chrome extension to block websites and keep focus while working and still have
 
 ## Features
 
-- **Website Blocking**: The extension can block specified websites during certain hours of the day. The blocked hours are currently set to 9:00-17:00.
+- **Website Blocking**: The extension can block specified websites during certain hours of the day. The blocked hours are by default set to 9:00-17:00.
+- **Feed Blocker**: The extension blocks all recommendation feeds on big social media sites to prevent binges.
 - **Custom Messages**: The extension displays a series of custom prompts when a user tries to access a blocked website. These prompts ask the user to confirm their intent to access the website.
 - **Timer Feature**: The extension includes a timer feature that forces the user to wait for a certain duration before accessing the blocked website. The timer is currently set to 15 seconds.
 
