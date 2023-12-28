@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Popup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+            width: 400px;
+        }
+
+        h1, h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        #siteSettings {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        #inputContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            margin-top: 5px;
+        }
+
+        #addButton {
+            height: 40px;
+            width: 40px;
+            border-radius: 4px;
+        }
+
+        #addNew {
+            margin-top: 0;
+        }
+
+        #newSiteInput {
+            height: 37px;
+            width: 360px;
+            border-color: #333;
+            border-width: 1px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body id="pageContainer">
+    <h1>Blocked Sites</h1>
+    <h2 class="addNew">Add New Site</h2>
+    <div id="inputContainer">
+        <input type="text" id="newSiteInput" placeholder="Enter site URL">
+        <button id="addButton">+</button>
+    </div>
+
+    <h2 id="sites">Blocked Sites List</h2>
+
+    <footer>
+        <script src="popup.js"></script>
+    </footer>
+</body>
+</html>

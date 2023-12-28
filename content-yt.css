@@ -1,0 +1,11 @@
+ytd-browse {
+    display: none !important;
+}
+
+#secondary {
+    display: none;
+}
+
+.ytp-endscreen-content {
+    display: none !important;
+}
