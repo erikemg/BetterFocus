@@ -10,5 +10,5 @@ A chrome extension to block websites and keep focus while working and still have
 
 ## Usage
 1. **Adding a Website**: Enter the URL of the website you want to block in the input field and click on the "Add" button. The website will be added to the list of blocked sites. The blocked site's details, including a series of prompts and a timer, will be stored in the Chrome local storage.
-2. **Customizing the prompts, questions and answers**: After having added a site to the list you can customize the prompts, answers, questions, timers and gif by clicking on it. You can also customize which hours you are not allowed to access the site a.k.a your work hours (default is 09 - 17).
+2. **Customizing the prompts, questions and answers**: After having added a site to the list you can customize the prompts, answers, questions, timers and gif by clicking on it. You can also customize which hours you are not allowed to access the site a.k.a your work hours (default is 09 - 17). The Allowed Time is the time that you are allowed to access the site after clicking yes on the questions and/or timers, after the allowed time is up the site will be banned agian.
 3. **Accessing a site**: When you try to access a site it will show you the custom prompts, answers, questions, timers and gif that you set up before.
